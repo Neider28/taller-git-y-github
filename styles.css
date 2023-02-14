@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    background-color: #223026;
+}
+
+.students-container {
+    width: auto;
+    height: auto;
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.student-card {
+    width: 300px;
+    height: 350px;
+    margin: 20px;
+    border-radius: 50px;
+    border: #68da3e solid 5px;
+    background-color: #416864;
+}
+
+.second-container {
+    width: auto;
+    height: auto;
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subcontainer {
+    width: 1020px;
+    height: 350px;
+    margin: 20px;
+    border-radius: 50px;
+    border: #68da3e solid 5px;
+    background-color: #416864;
+}
